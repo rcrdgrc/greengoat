@@ -1,8 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Green Goat
 
-## Available Scripts
+Road Map:
 
-In the project directory, you can run:
+API
+Project Setup
+Database Setup
+User signup
+Validation
+User Sigin using JSON Web Token
+auth/admin middleware
+Create categories, products
+Products - CRUD
+Implement Stripe for payment checkout
+
 
 ### `npm start`
 
@@ -55,14 +65,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/an
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
