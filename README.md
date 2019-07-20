@@ -2,16 +2,16 @@
 
 Road Map:
 
-API
-Project Setup
-Database Setup
-User signup
-Validation
-User Sigin using JSON Web Token
-auth/admin middleware
-Create categories, products
-Products - CRUD
-Implement Stripe for payment checkout
+API<br>
+Project Setup<br>
+Database Setup<br>
+User signup<br>
+Validation<br>
+User Sigin using JSON Web Token<br>
+auth/admin middleware<br>
+Create categories, products<br>
+Products - CRUD<br>
+Implement Stripe for payment checkout<br>
 
 
 ### `npm start`
