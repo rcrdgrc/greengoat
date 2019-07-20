@@ -4,11 +4,11 @@ Green Goat is an E-Commerce store that sells CBD prouducts.  We will be implemen
 
 Road Map:
 
-API<br>
 Project Setup<br>
 [Database Setup](https://github.com/rcrdgrc/green-goat-admin-db)<br>
 User signup<br>
 Validation<br>
+Using Postman to make sure all routes are working<br>
 User Sigin using JSON Web Token<br>
 auth/admin middleware<br>
 Create categories, products<br>
