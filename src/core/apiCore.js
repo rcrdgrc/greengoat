@@ -1,5 +1,6 @@
 import { API } from "../config";
 
+
 export const getProducts = sortBy => {
     return fetch(`${API}/products?sortBy=${sortBy}&order=desc&limit6`, {
         method: "GET"
@@ -12,6 +13,16 @@ export const getProducts = sortBy => {
 
 export const getCategories = () => {
     return fetch(`${API}/categories`, {
+        method: "GET"
+    })
+        .then(response => {
+            return response.json();
+        })
+        .catch(err => console.log(err));
+};
+
+export const read = (productId) => {
+    return fetch(`${API}/product/${productId}`, {
         method: "GET"
     })
         .then(response => {
