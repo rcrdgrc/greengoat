@@ -195,6 +195,14 @@ const AddProduct = () => {
             </div>
         );
 
+    const goBack = () => (
+        <div className="mt-5">
+            <Link to="/admin/dashboard" className="text-warning">
+                Back to Dashboard
+            </Link>
+        </div>
+    );
+    
     return (
         <Layout
             title="Add a new product"
@@ -206,6 +214,7 @@ const AddProduct = () => {
                     {showSuccess()}
                     {showError()}
                     {newPostForm()}
+                    {goBack()}
                 </div>
             </div>
         </Layout>
